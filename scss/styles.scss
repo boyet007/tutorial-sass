@@ -7,6 +7,9 @@
     ul{
         width: 100%;
         @include clearFix;
+        @include mQ(600px) {
+            width:100%;
+        }
     }
 
     li{
